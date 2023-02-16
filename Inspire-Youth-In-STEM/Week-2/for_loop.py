@@ -12,3 +12,9 @@ for x in range(1,10):
 print(product)    
 
 #6! =6*5*4*3*2*1
+
+quotient = 1
+for q in range(1,11):
+    quotient = quotient / q
+
+print(quotient)
