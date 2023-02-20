@@ -24,4 +24,6 @@ print(new_friends)
 new_friends.sort()
 print(new_friends)
 
+new_friends.s
+
 
