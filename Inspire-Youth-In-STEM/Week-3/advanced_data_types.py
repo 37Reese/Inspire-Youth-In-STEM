@@ -3,7 +3,7 @@
 # Dta types
 # Name : Cyril Newman
 # Email : reesedugg24@gmail.com
-# Date : 21st Feb 2023
+# Date : 22nd Feb 2023
 # File : advanced data types
 
 # Mutable vs immutable
@@ -14,7 +14,7 @@
 #Immutable --> Data types that cannot be edited during program life cycle
 
 # 1) List (mutable)
-'''
+
 friends = ["Reese","Neema","Keke","Masese"]
 #        or [ ] for empty list
 # add ---> append() or extend()
@@ -44,7 +44,6 @@ print(student["age"])
 print(student["Name"])
 print(student["is tall"])
 # "Name" : "Reese" --> Name(key) , Reese(Value)
-'''
 # Create a dictionary
 # Name it friend
 
@@ -59,3 +58,14 @@ print(friend.values())
 print(friend.keys())
 
 # 4) Sets
+#_____________________________________
+# # a) Ordered--> similar data types
+#_____________________________________
+
+# b) Non ordered--> Different data types
+#-------------------------------------
+
+#uses curly brackets( {} )
+my_fruits = {"banana","cherry","apple","orange"}
+for fruit in my_fruits:
+    print(type(fruit))
