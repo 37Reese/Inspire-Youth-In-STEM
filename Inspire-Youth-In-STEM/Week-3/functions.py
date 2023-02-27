@@ -13,6 +13,7 @@ def print_name():
     print("I am from Thika")
     print("I am the GOAT")
     print("I am 17 years old")
+print_name()
 
 def add_numbers(num1,num2):
     sum_num = num1 + num2
@@ -26,7 +27,7 @@ def divide_numbers(num5,num6):
     quot_num = num5 / num6
     print(quot_num)
 
-#calling/ invoking the fincion
+#calling/ invoking the function
 #print_name()
 #add_numbers( 20 , 30) # Pass the parameters
 #add_numbers(4,5)
